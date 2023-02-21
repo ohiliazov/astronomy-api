@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "astronomy-api"
+version = "0.1.0"
+description = ""
+authors = ["Oleksandr Hiliazov <oleksandr.hiliazov@eleks.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyswisseph = "^2.10.3"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^3.0.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
